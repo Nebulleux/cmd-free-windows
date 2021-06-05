@@ -1,10 +1,11 @@
 @echo off
 
 echo Ce script a ete cree par le grand Nebulleux
+echo This script was created by the great Nebulleux
 
 pause
 
-set /p win="Entrez le windows voulu (Home, Home N, Home Single Language, Home Country Specific, Professional, Professional N, Education, Education N, Enterprise, Enterprise N): "
+set /p win="Set the windows wanted | Entrez le windows voulu (Home, Home N, Home Single Language, Home Country Specific, Professional, Professional N, Education, Education N, Enterprise, Enterprise N): "
 
 slmgr.vbs /upk
 
